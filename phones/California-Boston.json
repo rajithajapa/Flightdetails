@@ -1,0 +1,13 @@
+{
+	"flights" :[ {
+		"name" : "ARAB Airlines",
+		"time" : "10 AM",
+		"fare" : "$300"
+	},
+	{
+		"name" : "American Airlines",
+		"time" : "12 pM",
+		"fare" : "$320"
+	}
+	]
+}

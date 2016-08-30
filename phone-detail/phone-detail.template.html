@@ -1,0 +1,24 @@
+<div >
+<h1>List Of Available Flighs</h1>
+<div class="container">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+<th>Name Of The Flight</th>
+        <th>Time</th>
+        <th>Fare</th>
+        <th>Criteria</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+	
+      <tr  ng-repeat="availability in $ctrl.phone.flights">
+        <td>{{availability.name}}</td>
+        <td>{{availability.time}}</td>
+        <td>{{availability.fare}}</td>
+		<td><button type="button" class="btn btn-success">Select</button></td>
+		</tr>
+    </tbody>
+  </table>
+</div>

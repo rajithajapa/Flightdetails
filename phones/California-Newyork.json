@@ -1,0 +1,8 @@
+{
+	"flights" :[ {
+		"name" : "Northern Airlines",
+		"time" : "6 AM",
+		"fare" : "$300"
+	}
+	]
+}

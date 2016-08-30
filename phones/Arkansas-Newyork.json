@@ -1,0 +1,22 @@
+{
+	"flights" :[ {
+		"name" : "SouthWest Airlines",
+		"time" : "6 AM",
+		"fare" : "$300"
+	},
+	{
+		"name" : "American Airlines",
+		"time" : "8 AM",
+		"fare" : "$320"
+	},{
+		"name" : "Singapore Airlines",
+		"time" : "9 AM",
+		"fare" : "$280"
+		},
+    {
+		"name" : "Ny Airlines",
+		"time" : "10 AM",
+		"fare" : "$280"
+		}
+	]
+}

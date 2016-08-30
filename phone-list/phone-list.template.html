@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <!--Sidebar content-->
+
+      <p>
+        From:
+        <select ng-model="$ctrl.from">
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+        </select>
+		To:
+		<select ng-model="$ctrl.to" >
+          <option value="Newyork">Newyork</option>
+          <option value="Boston">Boston</option>
+        </select>
+      </p>
+
+    </div>
+	<a type="button" class="btn btn-default" href="#!/phones/{{$ctrl.from}}-{{$ctrl.to}}">Search</a>
+    </div>
+  </div>
+</div>
